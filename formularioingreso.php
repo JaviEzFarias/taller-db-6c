@@ -38,7 +38,7 @@ if($var_resultado->num_rows>0)
 
 while ($var_fila=$var_resultado->fetch_array())
 {
-    echo"<tr><td>".$var_fila["cod-asignatura"]."</td>";    
+    echo"<tr><td>".$var_fila["codigo"]."</td>";    
 	echo "<option>".$var_fila["nombre"]."</option>";    
 	
  }
@@ -69,7 +69,7 @@ else
 
   while ($var_fila=$var_resultado->fetch_array())
   {
-      echo"<tr><td>".$var_fila["cod-dias"]."</td>";    
+      echo"<tr><td>".$var_fila["codigo"]."</td>";    
     echo "<option>".$var_fila["nombre"]."</option>";    
     
   }
