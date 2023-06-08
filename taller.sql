@@ -55,7 +55,7 @@ INSERT INTO `asignatura` (`cod-asignatura`, `nombre`) VALUES
 -- Estructura de tabla para la tabla `dias`
 --
 
-CREATE TABLE `dias` (
+CREATE TABLE `dia` (
   `cod-dia` varchar(200) NOT NULL,
   `nombre` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
